@@ -1,4 +1,3 @@
-#Dummiesman OBJ Importer Readme
 
 <body>
     <h2>Dummiesman's OBJ Importer</h2>
