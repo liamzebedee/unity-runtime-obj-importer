@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Dummiesman OBJ Importer Readme</title>
-</head>
+#Dummiesman OBJ Importer Readme
 
 <body>
     <h2>Dummiesman's OBJ Importer</h2>
