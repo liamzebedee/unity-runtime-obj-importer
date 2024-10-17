@@ -197,7 +197,7 @@ namespace Dummiesman
                 if (buffer.Is("f"))
                 {
                     //loop through indices
-                    while (true)
+                    while (!buffer.endReached)
                     {
 						bool newLinePassed;
 						buffer.SkipWhitespaces(out newLinePassed);
