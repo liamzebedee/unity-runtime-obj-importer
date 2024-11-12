@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using UnityEngine;
 
 namespace Dummiesman 
@@ -25,7 +26,7 @@ namespace Dummiesman
         /// </summary>
         public static float FastFloatParse(string input)
         {
-            if (input.Contains("e") || input.Contains("E"))
+            if (input.Contains("e", StringComparison.InvariantCultureIgnoreCase))
                 return float.Parse(input, CultureInfo.InvariantCulture);
 
             float result = 0;
