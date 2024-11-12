@@ -47,10 +47,9 @@ public class OBJObjectBuilder {
 		public int uvIndex;
 
 		public override bool Equals(object obj) {
-			if (!(obj is ObjLoopHash))
+			if (!(obj is ObjLoopHash hash))
 				return false;
 
-			var hash = obj as ObjLoopHash;
 			return (hash.vertexIndex == vertexIndex) && (hash.uvIndex == uvIndex) && (hash.normalIndex == normalIndex);
 		}
 

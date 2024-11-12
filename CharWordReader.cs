@@ -136,7 +136,7 @@ namespace Dummiesman {
 					num = num * Mathf.Pow(10f, exp);
 				}
 			}
-			if (isNegative == true) {
+			if (isNegative) {
 				num = -num;
 			}
 
